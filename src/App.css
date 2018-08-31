@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.App {
+  text-align: center;
+}
+.Home,
+.About,
+.Benefit,
+.Contact,
+.Donate,
+.Golf,
+.Contact,
+.Donate {
+  margin: 0 auto;
+  max-width: 1600px;
+  
+}
+
+/* JUMBO */
+.JumboTron {
+  background-image: url('./img/homejumbo2.jpg');
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 500px;
+}
+
+/* HOMESECTIONS PAGE */
+
+.Section1,
+.Section2,
+.AboutSection1,
+.AboutSection2,
+.AboutCardsSection,
+.AboutCardsDiv,
+.BenefitSection1,
+.BenefitSection2,
+.BenefitSection3,
+.BenefitSection4,
+.GolfSection1,
+.GolfSection2,
+.GolfSection3,
+.ContactSection1,
+.DonateSection1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 100%;
+}
+
+.Section1-1,
+.Section2-2,
+.AboutSection1-1,
+.AboutSection2-2,
+.BenefitSection1-1,
+.BenefitSection3-1,
+.BenefitSection4-2,
+.ContactSection1-1,
+.DonateSection1-1 {
+  width: 50%;
+}
+
+.Section1-2,
+.Section2-1,
+.AboutSection1-2,
+.AboutSection2-1,
+.BenefitSection1-2,
+.BenefitSection2-1,
+.BenefitSection2-2,
+.BenefitSection3-2,
+.BenefitSection4-1,
+.GolfSection1-2,
+.GolfSection2-1,
+.GolfSection2-1,
+.GolfSection2-3,
+.GolfSection2-4,
+.ContactSection1-2,
+.DonateSection1-2 {
+  margin: 20px;
+  padding: 20px;
+}
+
+/* ABOUTSECTIONS PAGE */
+
+.AboutSection1-1, .BenefitSection1-1, .GolfSection1-1, .ContactSection1-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./img/aboutSection1Divpic1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 300px;
+}
+.lead {
+  font-weight: 400;
+  margin: 10px 0;
+}
+.AboutCard {
+margin: 15px;
+padding: 10px;
+}
+
+/* BENEFITSECTION PAGE */
+.formIndividual, .formGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+input {
+  margin: 20px;
+}
+
+
+
+.BenefitSection3-2 img {
+  margin: 15px;
+}
+
+.GolfSection1 {
+  margin-top: 20px;
+}
+
+.GolfSection1-1 {
+  width: 50%;
+}
+
+Footer {
+  margin: 20px;
+}
+
+.btn {
+  margin: 10px;
+  
+  
+
+}
+.btn a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  
+  
+
+}
+
+.btn i {
+  margin-right: 10px;
+}
+
+.DeerTrackTextDiv {
+  margin: 10px;
+}
+
+.DeerTrackTextDiv a {
+  text-decoration: none;
+
+}
+
+.GoogleFormsDiv a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1050px) {
+
+
+  .Section1-1,
+.Section2-2,
+.AboutSection1-1,
+.AboutSection2-2,
+.BenefitSection1-1,
+.BenefitSection3-1,
+.BenefitSection4-2,
+.ContactSection1-1,
+.DonateSection1-1,
+.GolfSection1-1 {
+  width: 80%;
+}
+  
+}
+
+
+
+@media screen and (max-width: 770px) {
+  .JumboTron {
+    
+    min-height: 300px;
+  }
+
+
+  
+}
+
+@media screen and (max-width: 460px) {
+  .JumboTron {
+    
+    min-height: 200px;
+  }
+  
+}
