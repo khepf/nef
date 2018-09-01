@@ -198,7 +198,7 @@ Footer {
     min-height: 300px;
   }
 
-  .Benefit1pic, .Benefit6pic, .Golf1pic {
+  .Benefit1pic, .Benefit6pic, .Golf1pic, .HomeSection1pic {
     max-width: 100%;
   }
 
@@ -214,8 +214,8 @@ Footer {
     min-height: 200px;
   }
 
-  .HomeSection1pic {
+  /* .HomeSection1pic {
     max-width: 100%;
-  }
+  } */
   
 }

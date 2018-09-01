@@ -24,7 +24,7 @@ class Contact extends Component {
           </div>
           <div className="ContactSection1-2">
             
-          <img src={homeSection1pic} alt="" />
+          <img src={homeSection1pic} alt="Home Section 1 pic" className="HomeSection1pic" />
           </div>
         </section>
   <Footer />
