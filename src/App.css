@@ -198,14 +198,20 @@ Footer {
     min-height: 300px;
   }
 
+ 
+
 
   
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 480px) {
   .JumboTron {
     
     min-height: 200px;
+  }
+
+  .HomeSection1pic {
+    max-width: 100%;
   }
   
 }

@@ -17,12 +17,12 @@ class HomeSections extends Component {
         <p className="lead">It is the goal of this foundation to continue these works for many years to come. Through the generosity of so many wonderful people, both here at home, and all over the United States, we can continue to help others while keeping Nick's memory alive. </p>
       </div>
     <div className="Section1-2">
-<img src={homeSection1pic} alt=""/>
+<img src={homeSection1pic} alt="Home Section 1" className="HomeSection1pic"/>
     </div>
     </section>
     <section className="Section2">
     <div className="Section2-1">
-<img src={homeSection2pic} alt=""/>
+<img src={homeSection2pic} alt="Home Section 2" className="HomeSection2pic"/>
     </div>
     <div className="Section2-2">
         <h3>Foundation Information</h3>
