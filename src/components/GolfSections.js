@@ -30,7 +30,7 @@ class GolfSections extends Component {
             </p>
           </div>
           <div className="GolfSection1-2">
-            <img src={golf1} alt="" />
+            <img src={golf1} alt="Golf 1" className="Golf1pic" />
             <h3>Additional Info</h3>
             <div><img src={golf2} alt=""/></div>
             <div className="DeerTrackTextDiv"><a href={golfPDF} target="_blank">Golf Outing Registration Form</a></div>
