@@ -31,7 +31,7 @@ class BenefitSections extends Component {
             </p>
           </div>
           <div className="BenefitSection1-2">
-            <img src={benefit1} alt="" />
+            <img src={benefit1} alt="Benefit 1" className="Benefit1pic" />
           </div>
         </section>
         <section className="BenefitSection2">
@@ -135,7 +135,7 @@ class BenefitSections extends Component {
 
         <section className="BenefitSection4">
           <div className="BenefitSection4-1">
-          <img src={benefit6} alt="" />
+          <img src={benefit6} alt="Benefit 6" className="Benefit6pic" />
             
           </div>
           <div className="BenefitSection4-2">

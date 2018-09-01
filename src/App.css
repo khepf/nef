@@ -198,6 +198,10 @@ Footer {
     min-height: 300px;
   }
 
+  .Benefit1pic, .Benefit6pic {
+    max-width: 100%;
+  }
+
  
 
 
