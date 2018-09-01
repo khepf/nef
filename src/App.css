@@ -194,7 +194,7 @@ Footer {
 
 @media screen and (max-width: 770px) {
   .JumboTron {
-    
+   max-width: 100%;
     min-height: 300px;
   }
 
