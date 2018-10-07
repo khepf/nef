@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 
 import golf1 from '../img/golf1.jpg';
-import golf2 from '../img/deer-track.png';
+import golf3 from '../img/hickoryWoods.jpg';
 
 import homeSection2pic from '../img/homeSection2pic.jpg';
 import golfPDF from '../img/golf2018.pdf';
@@ -17,7 +17,7 @@ class GolfSections extends Component {
           <div className="GolfSection1-1">
             <h3>14th Annual 2019 Nick Erdy Foundation Golf Outing</h3>
             <p className="lead">
-            will be held in June 2019 at Deer Track Golf Course. Registration starts at 11:30 am with a shotgun start at 1 pm. Cost of ticket includes: Greens Fees, Driving Range, Golf Cart, Door Prizes, Drink Ticket and Dinner.
+            will be held in June 2019 at the Hickory Woods Golf Course in Loveland. Registration starts at 11:30 am with a shotgun start at 1 pm. Cost of ticket also includes dinner and a soft drink.
             </p>
             <p className="lead">
             Awards and prizes for 1st place, longest drive, closest to the pin and longest putt.
@@ -32,22 +32,22 @@ class GolfSections extends Component {
           <div className="GolfSection1-2">
             <img src={golf1} alt="Golf 1" className="Golf1pic" />
             <h3>Additional Info</h3>
-            <div><img src={golf2} alt=""/></div>
+            <div><img src={golf3} alt=""/></div>
             <div className="DeerTrackTextDiv"><a href={golfPDF} target="_blank">Golf Outing Registration Form</a></div>
-            <div className="DeerTrackTextDiv"><a href="https://www.deertrackgolfcourse.com/contactus/" target="_blank" rel="noopener noreferrer">Directions to course</a></div>
-            <p>6160 St Route 727</p>
-            <p>Goshen, OH 45122</p>
-            <p>Tel: 513-625-2500</p>
+            <div className="DeerTrackTextDiv"><a href="http://www.hickorywoods.com/directions" target="_blank" rel="noopener noreferrer">Directions to course</a></div>
+            <p>1240 Hickory Woods Drive</p>
+            <p>Loveland, OH 45140</p>
+            <p>Tel: 513-575-3900</p>
           </div>
         </section>
         <section className="GolfSection2">
           <div className="GolfSection2-1">
-            <h3>Individual Golfer - $100</h3>
+            <h3>Individual Golfer - $90</h3>
             <p class="lead">list team name or other golfers in your group.</p>
             <form align="center" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input name="cmd" type="hidden" value="_s-xclick" /> <input name="hosted_button_id" type="hidden" value="Q2LQN5UESDVP4" /> <input alt="PayPal - The safer, easier way to pay online!" border="0" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" type="image" /> <img alt="" border="0" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" /></form>
           </div>
           <div className="GolfSection2-2">
-          <h3>Golf Outing Foursome - $400</h3>
+          <h3>Golf Outing Foursome - $360</h3>
           <p className="lead">make sure to list all 4 golfers on the donate screen.</p>
           <form align="center" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input name="cmd" type="hidden" value="_s-xclick" /> <input name="hosted_button_id" type="hidden" value="TQGQSZ3VKGLCC" /> <input alt="PayPal - The safer, easier way to pay online!" border="0" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" type="image" /> <img alt="" border="0" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" /></form>
           </div>

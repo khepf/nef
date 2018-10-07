@@ -39,7 +39,6 @@
 .AboutCardsSection,
 .AboutCardsDiv,
 .BenefitSection1,
-.BenefitSection2,
 .BenefitSection3,
 .BenefitSection4,
 .GolfSection1,
@@ -53,6 +52,20 @@
   align-items: center;
 
   max-width: 100%;
+}
+
+.BenefitSection2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+
+  max-width: 100%;
+}
+
+.tableMargin {
+  border: 2px solid green;
+  margin: 100px;
 }
 
 .Section1-1,
