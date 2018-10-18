@@ -71,6 +71,19 @@ class BenefitSections extends Component {
                     </select>{' '}
                   </td>
                 </tr>
+
+                <tr>
+            
+            <td>
+              <input type="hidden" name="on1" value="List Attendee Names Here:"/>List Attendee Names Here:
+            </td>
+          </tr>
+          
+          <tr>
+            <td>
+              <input type="text" name="os1" maxLength="200"/>
+            </td>
+          </tr>
                 </tbody>
               </table>
             
