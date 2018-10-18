@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 
-import benefit1 from '../img/benefit1.jpg';
+import benefit1 from '../img/benefit2.jpg';
 import benefit2 from '../img/norlyn.png';
 import benefit3 from '../img/spinning.png';
 import benefit4 from '../img/texas.png';
