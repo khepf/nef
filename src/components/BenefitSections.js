@@ -40,6 +40,7 @@ class BenefitSections extends Component {
         <section className="BenefitSection2">
           <div className="BenefitSection2-1">
             <h3>Individual Ticket - $60/person</h3>
+            <h5>(price increases to $75/person on November 1st)</h5>
             <form
               target="paypal"
               action="https://www.paypal.com/cgi-bin/webscr"
@@ -117,6 +118,7 @@ class BenefitSections extends Component {
           </div>
           <div className="BenefitSection2-2">
             <h3>Table Reservation (seats up to 8 ) - $480/table</h3>
+            <h5>(price increases to $600/table on November 1st)</h5>
             <form
               align="center"
               target="paypal"
