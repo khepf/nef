@@ -68,13 +68,13 @@ class BenefitSections extends Component {
                   <tr>
                     <td>
                       <select name="os0">
-                        <option value="1 Person">1 Person $75.00 USD</option>
-                        <option value="2 People">2 People $150.00 USD</option>
-                        <option value="3 People">3 People $225.00 USD</option>
-                        <option value="4 People">4 People $300.00 USD</option>
-                        <option value="5 People">5 People $375.00 USD</option>
-                        <option value="6 People">6 People $450.00 USD</option>
-                        <option value="7 People">7 People $525.00 USD</option>
+                        <option value="1 Person">1 Person $60.00 USD</option>
+                        <option value="2 People">2 People $120.00 USD</option>
+                        <option value="3 People">3 People $180.00 USD</option>
+                        <option value="4 People">4 People $240.00 USD</option>
+                        <option value="5 People">5 People $300.00 USD</option>
+                        <option value="6 People">6 People $360.00 USD</option>
+                        <option value="7 People">7 People $420.00 USD</option>
                       </select>{' '}
                     </td>
                   </tr>
