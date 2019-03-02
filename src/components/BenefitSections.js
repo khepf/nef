@@ -146,10 +146,10 @@ class BenefitSections extends Component {
                   <tr>
                     <td>
                       <select name="os0">
-                        <option value="1 Table">1 Table $600.00 USD</option>
-                        <option value="2 Tables">2 Tables $1,200.00 USD</option>
-                        <option value="3 Tables">3 Tables $1,800.00 USD</option>
-                        <option value="4 Tables">4 Tables $2,400.00 USD</option>
+                        <option value="1 Table">1 Table $480.00 USD</option>
+                        <option value="2 Tables">2 Tables $960.00 USD</option>
+                        <option value="3 Tables">3 Tables $1,440.00 USD</option>
+                        <option value="4 Tables">4 Tables $1,920.00 USD</option>
                       </select>
                     </td>
                   </tr>
