@@ -17,7 +17,7 @@ class GolfSections extends Component {
           <div className="GolfSection1-1">
             <h3>14th Annual 2019 Nick Erdy Foundation Golf Outing</h3>
             <p className="lead">
-            will be held in June 2019 at the Hickory Woods Golf Course in Loveland. Registration is from 12 to 1pm with a shotgun start at 1:30 pm. Cost of ticket also includes dinner and a soft drink.
+            will be held on June 1st, 2019 at the Hickory Woods Golf Course in Loveland. Registration is from 12 to 1pm with a shotgun start at 1:30 pm. Cost of ticket also includes dinner and a soft drink.
             </p>
             <p className="lead">
             Awards and prizes for 1st place, longest drive, closest to the pin and longest putt.
