@@ -6,6 +6,7 @@ import benefit3 from '../img/spinning.png';
 import benefit4 from '../img/texas.png';
 import benefit5 from '../img/steiner.png';
 import benefit6 from '../img/lima2.jpg';
+import benefit7 from '../img/meijer.jpg';
 import homeSection2pic from '../img/homeSection2pic.jpg';
 
 import '../App.css';
@@ -206,6 +207,7 @@ class BenefitSections extends Component {
             <img src={benefit3} alt="" />
             <img src={benefit4} alt="" />
             <img src={benefit5} alt="" />
+            <img src={benefit7} alt="" />
           </div>
         </section>
 
