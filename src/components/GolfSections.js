@@ -4,7 +4,7 @@ import golf1 from '../img/golf1.jpg';
 import golf3 from '../img/hickoryWoods.jpg';
 
 import homeSection2pic from '../img/homeSection2pic.jpg';
-import golfPDF from '../img/golf-2019.pdf';
+import golfPDF from '../img/2020Golf.pdf';
 
 
 import '../App.css';
@@ -15,7 +15,7 @@ class GolfSections extends Component {
       <Fragment>
         <section className="GolfSection1">
           <div className="GolfSection1-1">
-            <h3>14th Annual 2019 Nick Erdy Foundation Golf Outing</h3>
+            <h3>15th Annual 2020 Nick Erdy Foundation Golf Outing</h3>
             <p className="lead">
             will be held on June 6th, 2020 at the Hickory Woods Golf Course in Loveland. Registration is from 12 to 1pm with a shotgun start at 1:30 pm. Cost of ticket also includes dinner and a soft drink.
             </p>
@@ -53,7 +53,7 @@ class GolfSections extends Component {
           </div>
 
           <div className="GolfSection2-3">
-            <h3>Individual Dinner - $12</h3>
+            <h3>Individual Dinner - $15</h3>
             <p className="lead">reservation without the golf</p>
             <form align="center" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input name="cmd" type="hidden" value="_s-xclick" /> <input name="hosted_button_id" type="hidden" value="C65CPMRPUR9LL" /> <input alt="PayPal - The safer, easier way to pay online!" border="0" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" type="image" /> <img alt="" border="0" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" /></form>
           </div>
