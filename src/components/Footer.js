@@ -6,7 +6,7 @@ class Footer extends Component {
       <div className="Footer">
         <footer>
           <p className="FooterP lead">
-            © 2019 Nick Erdy Foundation | All rights reserved.
+            &copy; { new Date().getFullYear() } Nick Erdy Foundation | All rights reserved.
           </p>
         </footer>
       </div>
