@@ -16,7 +16,8 @@ class GolfSections extends Component {
         <section className="GolfSection1">
           <div className="GolfSection1-1">
             <h3>15th Annual 2020 Nick Erdy Foundation Golf Outing</h3>
-            <p className="lead">
+            <p>Unfortunately, due to COVID-19, this year’s golf outing has been cancelled. </p>
+            {/* <p className="lead">
             will be held on June 6th, 2020 at the Hickory Woods Golf Course in Loveland. Registration is from 12 to 1pm with a shotgun start at 1:30 pm. Cost of ticket also includes dinner and a soft drink.
             </p>
             <p className="lead">
@@ -27,7 +28,7 @@ class GolfSections extends Component {
             </p>
             <p className="lead">
             It is the goal of this foundation to continue these works for many years to come. Through the generosity of so many wonderful people, both here at home, and all over the United States, we can continue to help others while keeping Nick's memory alive.
-            </p>
+            </p> */}
           </div>
           <div className="GolfSection1-2">
             <img src={golf1} alt="Golf 1" className="Golf1pic" />
