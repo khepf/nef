@@ -17,6 +17,7 @@ class GolfSections extends Component {
           <div className="GolfSection1-1">
             <h3>15th Annual 2020 Nick Erdy Foundation Golf Outing</h3>
             <p>Unfortunately, due to COVID-19, this year’s golf outing has been cancelled. </p>
+            <p> Thanks to all of our supporters and we wish you health and safety until we meet again in 2021.</p>
             {/* <p className="lead">
             will be held on June 6th, 2020 at the Hickory Woods Golf Course in Loveland. Registration is from 12 to 1pm with a shotgun start at 1:30 pm. Cost of ticket also includes dinner and a soft drink.
             </p>
