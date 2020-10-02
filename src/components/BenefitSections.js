@@ -17,10 +17,10 @@ class BenefitSections extends Component {
       <Fragment>
         <section className="BenefitSection1">
           <div className="BenefitSection1-1">
-            <h3>2019 Annual Benefit</h3>
+            <h3>2021 Annual Benefit</h3>
             <p className="lead">
-              Please join us for the 15th Annual Nick Erdy Foundation - Dinner,
-              Dance and Auction on Saturday November 23rd at Norlyn Manor!
+              Please join us for the 16th Annual Nick Erdy Foundation - Dinner,
+              Dance and Auction on Saturday November 20th, 2021 at Norlyn Manor!
             </p>
             <p className="lead">
               The doors will open at 5:30pm with an open bar followed by a

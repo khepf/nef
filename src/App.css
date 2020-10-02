@@ -185,6 +185,11 @@ Footer {
   text-decoration: none;
 }
 
+.Covid-Banner {
+  background: goldenrod;
+  padding: 10px 0 10px 0;
+}
+
 @media screen and (max-width: 1050px) {
 
 
