@@ -4,7 +4,7 @@ import golf1 from '../img/golf1.jpg';
 import golf3 from '../img/hickoryWoods.jpg';
 
 import homeSection2pic from '../img/homeSection2pic.jpg';
-import golfPDF from '../img/2020Golf.pdf';
+import golfPDF from '../img/golf2021.pdf';
 
 
 import '../App.css';
@@ -15,7 +15,7 @@ class GolfSections extends Component {
       <Fragment>
         <section className="GolfSection1">
           <div className="GolfSection1-1">
-            <h3>16th Annual 2021 Nick Erdy Foundation Golf Outing</h3>
+            <h3>15th Annual 2021 Nick Erdy Foundation Golf Outing</h3>
             {/* <p className="lead">Unfortunately, due to COVID-19, this year’s golf outing has been cancelled. </p>
             <p className="lead"> Thanks to all of our supporters and we wish you health and safety until we meet again in 2021.</p> */}
             <p className="lead">
