@@ -10,12 +10,12 @@ class Home extends Component {
   render() {
     return <div className="Home">
     <Navbar /> 
-    {/* <div className="Covid-Banner">
-      <p><b>Unfortunately, due to COVID-19, this year’s benefit has been cancelled.
+    <div className="Covid-Banner">
+      <p><b>Welcome to 2021!! 
 
-Thanks to all of our supporters and we wish you health and safety until we meet again in 2021.</b></p>
+Looking forward to seeing everyone at this year’s golf outing on June 5!!</b></p>
       
-    </div> */}
+    </div>
     <HomeJumbo />
     <HomeSections />
     <Footer />
