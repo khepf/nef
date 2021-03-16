@@ -6,6 +6,8 @@ import Footer from './Footer';
 import '../App.css';
 import '../bootstrap-social.css';
 
+// All good
+
 class Home extends Component {
   render() {
     return <div className="Home">
