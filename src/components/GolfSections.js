@@ -4,7 +4,7 @@ import golf1 from '../img/golf1.jpg';
 import golf3 from '../img/hickoryWoods.jpg';
 
 import homeSection2pic from '../img/homeSection2pic.jpg';
-import golfPDF from '../img/golf2021.pdf';
+import golfPDF from '../img/2021golf.pdf';
 
 
 import '../App.css';
