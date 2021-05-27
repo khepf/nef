@@ -3,7 +3,7 @@ import React, { Component, Fragment } from 'react';
 import golf1 from '../img/golf1.jpg';
 import golf3 from '../img/hickoryWoods.jpg';
 import golf11 from '../img/golf11.png';
-import golf222 from '../img/golf222.png';
+import golf2222 from '../img/golf2222.png';
 
 import homeSection2pic from '../img/homeSection2pic.jpg';
 import golfPDF from '../img/2021golf.pdf';
@@ -51,8 +51,8 @@ class GolfSections extends Component {
             <p class="lead">list team name or other golfers in your group.</p>
             <form align="center" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input name="cmd" type="hidden" value="_s-xclick" /> <input name="hosted_button_id" type="hidden" value="Q2LQN5UESDVP4" /> <input alt="PayPal - The safer, easier way to pay online!" border="0" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" type="image" /> <img alt="" border="0" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" /></form> */}
           </div>
-          <div className="GolfSection2-2">
-          <img src={golf222} alt="" />
+          <div className="GolfSection2-2" >
+          <img src={golf2222} alt="" />
           {/* <h3>Golf Outing Foursome - $360</h3>
           <p className="lead">make sure to list all 4 golfers on the donate screen.</p>
           <form align="center" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input name="cmd" type="hidden" value="_s-xclick" /> <input name="hosted_button_id" type="hidden" value="TQGQSZ3VKGLCC" /> <input alt="PayPal - The safer, easier way to pay online!" border="0" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" type="image" /> <img alt="" border="0" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" /></form> */}
