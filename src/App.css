@@ -239,9 +239,10 @@ Footer {
 }
 
 @media screen and (max-width: 420px) {
-.GolfSection2-2 {
-  width: 100%;
-  height: auto;
+.tester {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 }
