@@ -40,8 +40,8 @@ class BenefitSections extends Component {
         </section>
         <section className="BenefitSection2">
           <div className="BenefitSection2-1">
-            <h3>Individual Ticket - $60/person</h3>
-            <h5>(price increases to $75/person on November 1st)</h5>
+            <h3>Individual Ticket - $75/person</h3>
+            <h5>(price increases to $90/person on November 1st)</h5>
             <form
               target="paypal"
               action="https://www.paypal.com/cgi-bin/webscr"
@@ -71,13 +71,13 @@ class BenefitSections extends Component {
                   <tr>
                     <td>
                       <select name="os0">
-                        <option value="1 Person">1 Person $60.00 USD</option>
-                        <option value="2 People">2 People $120.00 USD</option>
-                        <option value="3 People">3 People $180.00 USD</option>
-                        <option value="4 People">4 People $240.00 USD</option>
-                        <option value="5 People">5 People $300.00 USD</option>
-                        <option value="6 People">6 People $360.00 USD</option>
-                        <option value="7 People">7 People $420.00 USD</option>
+                        <option value="1 Person">1 Person $75.00 USD</option>
+                        <option value="2 People">2 People $150.00 USD</option>
+                        <option value="3 People">3 People $225.00 USD</option>
+                        <option value="4 People">4 People $300.00 USD</option>
+                        <option value="5 People">5 People $375.00 USD</option>
+                        <option value="6 People">6 People $425.00 USD</option>
+                        <option value="7 People">7 People $500.00 USD</option>
                       </select>{' '}
                     </td>
                   </tr>
@@ -119,7 +119,7 @@ class BenefitSections extends Component {
             </form>
           </div>
           <div className="BenefitSection2-2">
-            <h3>Table Reservation (seats up to 8 ) - $480/table</h3>
+            <h3>Table Reservation (seats up to 8 ) - $600/table</h3>
             <h5>(price increases to $600/table on November 1st)</h5>
             <form
               align="center"
@@ -150,10 +150,10 @@ class BenefitSections extends Component {
                   <tr>
                     <td>
                       <select name="os0">
-                        <option value="1 Table">1 Table $480.00 USD</option>
-                        <option value="2 Tables">2 Tables $960.00 USD</option>
-                        <option value="3 Tables">3 Tables $1,440.00 USD</option>
-                        <option value="4 Tables">4 Tables $1,920.00 USD</option>
+                        <option value="1 Table">1 Table $600.00 USD</option>
+                        <option value="2 Tables">2 Tables $1,200.00 USD</option>
+                        <option value="3 Tables">3 Tables $1,800.00 USD</option>
+                        <option value="4 Tables">4 Tables $2,420.00 USD</option>
                       </select>
                     </td>
                   </tr>
