@@ -9,7 +9,7 @@ class Golf extends Component {
     return <div className="Golf">
     <Navbar />
     <div className="Covid-Banner">
-      <p><b>A HUGE thank you for all who attended the golf outing.  We had record attendance and sold out two weeks prior to our start date</b></p>
+      <p><b>A HUGE thank you for all who attended the golf outing.  We had record attendance and sold out two weeks prior to our start date.</b></p>
       
     </div>
     <GolfSections />

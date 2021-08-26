@@ -10,9 +10,7 @@ class Benefit extends Component {
       
     <Navbar />
     <div className="Covid-Banner">
-      <p><b>Welcome to 2021!! 
-
-Looking forward to seeing everyone at this year’s golf outing on June 5!!</b></p>
+      <p><b>A HUGE thank you for all who attended the golf outing.  We had record attendance and sold out two weeks prior to our start date.</b></p>
       
     </div>
     <BenefitSections />
