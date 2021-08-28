@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 
 import Navbar from './Navbar';
+import TopBanner from './TopBanner';
 import Footer from './Footer';
 import '../App.css';
 
@@ -13,6 +14,7 @@ class Donate extends Component {
   render() {
     return <div className="Donate">
   <Navbar />
+  <TopBanner />
   <section className="DonateSection1">
           <div className="DonateSection1-1">
             <h3>Donate</h3>

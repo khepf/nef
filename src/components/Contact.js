@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar';
+import TopBanner from './TopBanner';
 import Footer from './Footer';
 import '../App.css';
 import '../bootstrap-social.css';
@@ -9,6 +10,7 @@ class Contact extends Component {
   render() {
     return <div className="Contact">
   <Navbar />
+  <TopBanner />
   <section className="ContactSection1">
           <div className="ContactSection1-1">
             <h3>Contact Us</h3>
