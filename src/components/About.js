@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import AboutSections from "./AboutSections";
-import TopBanner from "./TopBanner";
+// import TopBanner from "./TopBanner";
 import Footer from "./Footer";
 import "../App.css";
 

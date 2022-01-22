@@ -5,9 +5,7 @@ import HomeSections from "./HomeSections";
 import Footer from "./Footer";
 import "../App.css";
 import "../bootstrap-social.css";
-import TopBanner from "./TopBanner";
-
-// All good
+// import TopBanner from "./TopBanner";
 
 class Home extends Component {
   render() {

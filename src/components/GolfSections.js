@@ -2,8 +2,8 @@ import React, { Component, Fragment } from "react";
 
 import golf1 from "../img/golf1.jpg";
 import golf3 from "../img/hickoryWoods.jpg";
-import golf11 from "../img/golf11.png";
-import golf2222 from "../img/golf2222.png";
+// import golf11 from "../img/golf11.png";
+// import golf2222 from "../img/golf2222.png";
 
 import homeSection2pic from "../img/homeSection2pic.jpg";
 import golfPDF from "../img/2021golf.pdf";
