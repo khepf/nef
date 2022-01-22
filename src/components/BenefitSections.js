@@ -41,7 +41,7 @@ class BenefitSections extends Component {
         {/* https://www.paypal.com/cgi-bin/webscr?cmd=_button-management&flowloggingId=f645170b9b9e7 */}
         <section className="BenefitSection2">
           <div className="BenefitSection2-1">
-            <h3>Individual Ticket - $90/person</h3>
+            <h3>Individual Ticket - $75/person</h3>
             <h5>(price increases to $90/person on November 1st)</h5>
             <form
               target="paypal"
