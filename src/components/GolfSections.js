@@ -16,13 +16,14 @@ class GolfSections extends Component {
       <Fragment>
         <section className="GolfSection1">
           <div className="GolfSection1-1">
-            <h3>15th Annual 2021 Nick Erdy Foundation Golf Outing</h3>
+            <h3>16th Annual 2022 Nick Erdy Foundation Golf Outing</h3>
             {/* <p className="lead">Unfortunately, due to COVID-19, this year’s golf outing has been cancelled. </p>
             <p className="lead"> Thanks to all of our supporters and we wish you health and safety until we meet again in 2021.</p> */}
             <p className="lead">
               will be held on June 4th, 2022 at the Hickory Woods Golf Course in
               Loveland. Registration is from 12 to 1pm with a shotgun start at
-              1:30 pm. Cost of ticket also includes dinner and a soft drink.
+              1:30 pm. Cost of ticket also includes dinner and Two (2) drink
+              tickets.
             </p>
             <p className="lead">
               Awards and prizes for 1st place, longest drive, closest to the pin
@@ -69,7 +70,7 @@ class GolfSections extends Component {
         <section className="GolfSection2">
           <div className="GolfSection2-1 tester">
             {/* <img src={golf11} alt=""/> */}
-            <h3>Individual Golfer - $90</h3>
+            <h3>Individual Golfer - $100</h3>
             <p class="lead">list team name or other golfers in your group.</p>
             <form
               align="center"
@@ -101,7 +102,7 @@ class GolfSections extends Component {
           </div>
           <div className="GolfSection2-2 tester">
             {/* <img src={golf2222} alt="" style={{ "width": "95%"}}/> */}
-            <h3>Golf Outing Foursome - $360</h3>
+            <h3>Golf Outing Foursome - $400</h3>
             <p className="lead">
               make sure to list all 4 golfers on the donate screen.
             </p>
