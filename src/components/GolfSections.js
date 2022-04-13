@@ -6,7 +6,7 @@ import golf3 from "../img/hickoryWoods.jpg";
 // import golf2222 from "../img/golf2222.png";
 
 import homeSection2pic from "../img/homeSection2pic.jpg";
-import golfPDF from "../img/2022golf.pdf";
+import golfPDF from "../img/2022GolfNEF.pdf";
 
 import "../App.css";
 
