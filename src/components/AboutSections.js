@@ -27,7 +27,7 @@ class AboutSections extends Component {
             <img src={aboutSection1pic} alt="" />
           </div>
         </section>
-        <p className="lead">NEF has proudly contributed more than $225,000 to the following:</p>
+        <p className="lead">NEF has proudly contributed more than $300,000 to the following:</p>
         <section className="AboutCardsSection">
           <AboutCards />
         </section>
