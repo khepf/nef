@@ -119,8 +119,8 @@ class BenefitSections extends Component {
             </form>
           </div>
           <div className="BenefitSection2-2">
-            <h3>Table Reservation (seats up to 8 ) - $600/table</h3>
-            <h5>(price increases to $720/table on November 1st)</h5>
+            <h3>Table Reservation (seats up to 8 ) - $720/table</h3>
+            {/* <h5>(price increases to $720/table on November 1st)</h5> */}
             <form
               align="center"
               target="paypal"
