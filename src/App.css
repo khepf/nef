@@ -245,6 +245,8 @@ Footer {
 .GolfSection2-3,
 .GolfSection2-4 {
   transform: scale(0.7);
+  margin-top: 0;
+  padding-top: 0;
 }
 }
 
