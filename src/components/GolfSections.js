@@ -74,9 +74,9 @@ class GolfSections extends Component {
         </section>
         <section className='GolfSection2'>
           <div className='GolfSection2-1 tester'>
-            {/* <img src={golf11} alt=""/> */}
             <h3>Individual Golfer - $100</h3>
             <p class='lead'>list team name or other golfers in your group</p>
+
             <form
               align='center'
               action='https://www.paypal.com/cgi-bin/webscr'
