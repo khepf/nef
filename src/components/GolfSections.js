@@ -75,7 +75,9 @@ class GolfSections extends Component {
         <section className='GolfSection2'>
           <div className='GolfSection2-1 tester'>
             <h3>Individual Golfer - $100</h3>
-            <p class='lead'>list team name or other golfers in your group</p>
+            <p className='lead'>
+              list team name or other golfers in your group
+            </p>
 
             <form
               align='center'
