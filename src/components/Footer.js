@@ -6,8 +6,8 @@ class Footer extends Component {
       <div className='Footer'>
         <footer>
           <p className='FooterP lead'>
-            &copy; {new Date().getFullYear()} Nick Erdy Foundation | All rights
-            reserved
+            &copy; {new Date().getFullYear()} Nick Erdy Foundation | All Rights
+            Reserved
           </p>
         </footer>
       </div>
