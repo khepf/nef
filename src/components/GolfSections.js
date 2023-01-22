@@ -51,12 +51,12 @@ class GolfSections extends Component {
             <div>
               <img src={golf3} alt='' />
             </div>
-            <div className='DeerTrackTextDiv'>
+            <div className='DeerTrackTextDiv2023'>
               <a href={golf2023} target='_blank'>
                 Golf Outing Registration Form
               </a>
             </div>
-            <div className='DeerTrackTextDiv'>
+            <div className='DeerTrackTextDiv2023'>
               <a
                 href='http://www.hickorywoods.com/directions'
                 target='_blank'
