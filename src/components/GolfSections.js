@@ -62,7 +62,7 @@ class GolfSections extends Component {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Directions to course
+                Directions to course:
               </a>
             </div>
             <p>1240 Hickory Woods Drive</p>
