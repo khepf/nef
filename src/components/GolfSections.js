@@ -4,7 +4,7 @@ import golf1 from '../img/golf1.jpg';
 import golf3 from '../img/hickoryWoods.jpg';
 
 import homeSection2pic from '../img/homeSection2pic.jpg';
-import golf2023 from '../img/2023golf.pdf';
+import golf2023n from '../img/2023newgolf.pdf';
 
 import '../App.css';
 
@@ -52,7 +52,7 @@ class GolfSections extends Component {
               <img src={golf3} alt='' />
             </div>
             <div className='DeerTrackTextDiv2023'>
-              <a href={golf2023} target='_blank'>
+              <a href={golf2023n} target='_blank'>
                 Golf Outing Registration Form
               </a>
             </div>
