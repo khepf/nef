@@ -172,9 +172,9 @@ class GolfSections extends Component {
             </form>
           </div>
           <div className='GolfSection2-2 tester'>
-            <h3>Gold - $460</h3>
+            <h3>Gold - $480</h3>
             <h4>Golf Outing Foursome + 4 Mulligans</h4>
-            <h4>+ Split the pot</h4>
+            <h4>+ 4 entries in the “split the pot” putting contest</h4>
             <p className='lead'>
               make sure to list all 4 golfers on the donate screen
             </p>
@@ -206,9 +206,9 @@ class GolfSections extends Component {
             </form>
           </div>
           <div className='GolfSection2-2 tester'>
-            <h3>Platinum - $500</h3>
+            <h3>Platinum - $520</h3>
             <h4>Golf Outing Foursome + 4 Mulligans</h4>
-            <h4>+ Split the pot</h4>
+            <h4>+ 4 entries in the “split the pot” putting contest</h4>
             <h4>+ Team entry for all game/contest holes</h4>
             <p className='lead'>
               make sure to list all 4 golfers on the donate screen
