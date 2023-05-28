@@ -105,7 +105,7 @@ class GolfSections extends Component {
               />
             </form>
           </div>
-          <div className='GolfSection2-2 tester'>
+          {/* <div className='GolfSection2-2 tester'>
             <h3>Bronze - $400</h3>
             <h4>Golf Outing Foursome</h4>
             <p className='lead'>
@@ -137,8 +137,8 @@ class GolfSections extends Component {
                 height='1'
               />
             </form>
-          </div>
-          <div className='GolfSection2-2 tester'>
+          </div> */}
+          {/* <div className='GolfSection2-2 tester'>
             <h3>Silver - $440</h3>
             <h4>Golf Outing Foursome + 4 Mulligans</h4>
             <p className='lead'>
@@ -170,8 +170,8 @@ class GolfSections extends Component {
                 height='1'
               />
             </form>
-          </div>
-          <div className='GolfSection2-2 tester'>
+          </div> */}
+          {/* <div className='GolfSection2-2 tester'>
             <h3>Gold - $480</h3>
             <h4>Golf Outing Foursome + 4 Mulligans</h4>
             <h4>+ 4 entries in the “split the pot” putting contest</h4>
@@ -204,8 +204,8 @@ class GolfSections extends Component {
                 height='1'
               />
             </form>
-          </div>
-          <div className='GolfSection2-2 tester'>
+          </div> */}
+          {/* <div className='GolfSection2-2 tester'>
             <h3>Platinum - $520</h3>
             <h4>Golf Outing Foursome + 4 Mulligans</h4>
             <h4>+ 4 entries in the “split the pot” putting contest</h4>
@@ -239,7 +239,7 @@ class GolfSections extends Component {
                 height='1'
               />
             </form>
-          </div>
+          </div> */}
 
           <div className='GolfSection2-3'>
             <h3>Individual Dinner - $15</h3>
