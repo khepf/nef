@@ -19,8 +19,8 @@ class BenefitSections extends Component {
           <div className='BenefitSection1-1'>
             <h3>2023 Annual Benefit</h3>
             <p className='lead'>
-              Please join us for the 18th Annual Nick Erdy Foundation - Dinner,
-              Dance and Auction on Saturday November 18th, 2023 at Norlyn Manor!
+              Please join us for the 19th Annual Nick Erdy Foundation - Dinner,
+              Dance and Auction on Saturday November 23rd, 2024 at Norlyn Manor!
             </p>
             <p className='lead'>
               The doors will open at 5:30pm with an open bar followed by a
@@ -41,157 +41,96 @@ class BenefitSections extends Component {
         {/* https://www.paypal.com/cgi-bin/webscr?cmd=_button-management&flowloggingId=f645170b9b9e7 */}
         <section className='BenefitSection2'>
           <div className='BenefitSection2-1'>
-            <h3>Individual Ticket - $90/person</h3>
-            {/* <h5>(price increases to $90/person on November 1st)</h5> */}
-            <form
-              target='paypal'
-              action='https://www.paypal.com/cgi-bin/webscr'
-              method='post'
-              className='formIndividual'
-            >
-              <input type='hidden' name='cmd' value='_s-xclick' />
-              <input
-                type='hidden'
-                name='hosted_button_id'
-                value='QZALKA3BDJVKA'
-              />
-              <table>
-                <tbody>
-                  <tr>
-                    <td>
-                      <input
-                        type='hidden'
-                        name='on0'
-                        value='Number of Tickets'
-                      />
-                      Number of Tickets
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <select name='os0'>
-                        <option value='1 Person'>1 Person $90.00 USD</option>
-                        <option value='2 People'>2 People $180.00 USD</option>
-                        <option value='3 People'>3 People $270.00 USD</option>
-                        <option value='4 People'>4 People $360.00 USD</option>
-                        <option value='5 People'>5 People $450.00 USD</option>
-                        <option value='6 People'>6 People $540.00 USD</option>
-                        <option value='7 People'>7 People $630.00 USD</option>
-                      </select>{' '}
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <input
-                        type='hidden'
-                        name='on1'
-                        value='List Attendee Names Here:'
-                      />
-                      List Attendee Names Here:
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <input type='text' name='os1' maxLength='200' />
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-
-              <input type='hidden' name='currency_code' value='USD' />
-              <input
-                type='image'
-                src='https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif'
-                border='0'
-                name='submit'
-                alt='PayPal - The safer, easier way to pay online!'
-              />
-              <img
-                alt=''
-                border='0'
-                src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif'
-                width='1'
-                height='1'
-              />
-            </form>
+            <h3>Individual Ticket - $75/person</h3>
+            <h5>(price increases to $90/person on November 1st)</h5>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" className="formIndividual">
+  <input type="hidden" name="cmd" value="_s-xclick" />
+  <input type="hidden" name="hosted_button_id" value="NJNTJBRYVT84Q" />
+  <table>
+    <tr>
+      <td>
+        <input type="hidden" name="on0" value="Number of Tickets"/>
+        Number of Tickets
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <select name="os0">
+          <option value="1 Person">
+            1 Person $75.00 USD
+          </option>
+          <option value="2 People">
+            2 People $150.00 USD
+          </option>
+          <option value="3 People">
+            3 People $225.00 USD
+          </option>
+          <option value="4 People">
+            4 People $300.00 USD
+          </option>
+          <option value="5 People">
+            5 People $375.00 USD
+          </option>
+          <option value="6 People">
+            6 People $450.00 USD
+          </option>
+          <option value="7 People">
+            7 People $525.00 USD
+          </option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="hidden" name="on1" value="List Attendee Names Here:"/>
+        List Attendee Names Here:
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="text" name="os1" maxLength="200" />
+      </td>
+    </tr>
+  </table>
+  <input type="hidden" name="currency_code" value="USD" />
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+</form>
           </div>
           <div className='BenefitSection2-2'>
-            <h3>Table Reservation (seats up to 8 ) - $720/table</h3>
-            {/* <h5>(price increases to $720/table on November 1st)</h5> */}
-            <form
-              align='center'
-              target='paypal'
-              action='https://www.paypal.com/cgi-bin/webscr'
-              method='post'
-              className='formGroup'
-            >
-              <input type='hidden' name='cmd' value='_s-xclick' />
-              <input
-                type='hidden'
-                name='hosted_button_id'
-                value='8CJ8G4XA39G6L'
-              />
-              <table>
-                <tbody>
-                  <tr>
-                    <td>
-                      <input
-                        type='hidden'
-                        name='on0'
-                        value='How Many Tables?'
-                      />
-                      How Many Tables?
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <select name='os0'>
-                        <option value='1 Table'>1 Table $720.00 USD</option>
-                        <option value='2 Tables'>2 Tables $1,440.00 USD</option>
-                        <option value='3 Tables'>3 Tables $2,160.00 USD</option>
-                        <option value='4 Tables'>4 Tables $2,880.00 USD</option>
-                      </select>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <input
-                        type='hidden'
-                        name='on1'
-                        value='List Attendee Names Here:'
-                      />
-                      List Attendee Names Here:
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <input type='text' name='os1' maxLength='200' />
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <input type='hidden' name='currency_code' value='USD' />
-              <input
-                type='image'
-                src='https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif'
-                border='0'
-                name='submit'
-                alt='PayPal - The safer, easier way to pay online!'
-              />
-              <img
-                alt=''
-                border='0'
-                src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif'
-                width='1'
-                height='1'
-              />
-            </form>
+            <h3>Table Reservation (seats up to 8 ) - $600/table</h3>
+            <h5>(price increases to $720/table on November 1st)</h5>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" className="formGroup">
+  <input type="hidden" name="cmd" value="_s-xclick" />
+  <input type="hidden" name="hosted_button_id" value="DHDD9W34U33XA" />
+  <table>
+    <tr>
+      <td>
+        <input type="hidden" name="on0" value="How Many Tables?"/>
+        How Many Tables?
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <select name="os0">
+          <option value="1 Table">
+            1 Table $600.00 USD
+          </option>
+          <option value="2 Tables">
+            2 Tables $1,200.00 USD
+          </option>
+          <option value="3 Tables">
+            3 Tables $1,800.00 USD
+          </option>
+          <option value="4 Tables">
+            4 Tables $2,400.00 USD
+          </option>
+        </select>
+      </td>
+    </tr>
+  </table>
+  <input type="hidden" name="currency_code" value="USD" />
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+</form>
           </div>
         </section>
 
