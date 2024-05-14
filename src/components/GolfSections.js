@@ -64,50 +64,52 @@ class GolfSections extends Component {
           </div>
         </section>
         <section className='GolfSection2'>
-          <div className='GolfSection2-1 tester'>
+
+          {/* <div className='GolfSection2-1 tester'>
             <h3>Individual Golfer - $110</h3>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" align="center" className="formIndividual">
-  <input type="hidden" name="cmd" value="_s-xclick" />
-  <input type="hidden" name="hosted_button_id" value="NE45WCBV2QV3A" />
-  <table>
-    <tr>
-      <td>
-        <input type="hidden" name="on0" value="Full Name of Golfer"/>
-        Full Name of Golfer
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <input type="text" name="os0" maxLength="200" />
-      </td>
-    </tr>
-  </table>
-  <input type="hidden" name="currency_code" value="USD" />
-  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
-</form>
+              <input type="hidden" name="cmd" value="_s-xclick" />
+              <input type="hidden" name="hosted_button_id" value="NE45WCBV2QV3A" />
+              <table>
+                <tr>
+                  <td>
+                    <input type="hidden" name="on0" value="Full Name of Golfer"/>
+                    Full Name of Golfer
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="text" name="os0" maxLength="200" />
+                  </td>
+                </tr>
+              </table>
+              <input type="hidden" name="currency_code" value="USD" />
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+            </form>
           </div>
           <div className='GolfSection2-2 tester'>
             <h3>Golf Outing Foursome - $440</h3>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" className="formIndividual">
-  <input type="hidden" name="cmd" value="_s-xclick" />
-  <input type="hidden" name="hosted_button_id" value="L9S82MYNLH94S" />
-  <table>
-    <tr>
-      <td>
-        <input type="hidden" name="on0" value="Please list names of all golfers"/>
-        Please List Names of All Golfers
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <input type="text" name="os0" maxLength="200" />
-      </td>
-    </tr>
-  </table>
-  <input type="hidden" name="currency_code" value="USD" />
-  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
-</form>
-          </div>
+              <input type="hidden" name="cmd" value="_s-xclick" />
+              <input type="hidden" name="hosted_button_id" value="L9S82MYNLH94S" />
+              <table>
+                <tr>
+                  <td>
+                    <input type="hidden" name="on0" value="Please list names of all golfers"/>
+                    Please List Names of All Golfers
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="text" name="os0" maxLength="200" />
+                  </td>
+                </tr>
+              </table>
+              <input type="hidden" name="currency_code" value="USD" />
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+            </form>
+          </div> */}
+
           {/* <div className='GolfSection2-2 tester'>
             <h3>Silver - $440</h3>
             <h4>Golf Outing Foursome + 4 Mulligans</h4>
