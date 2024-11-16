@@ -4,7 +4,7 @@ import golf1 from '../img/golf1.jpg';
 import golf3 from '../img/hickoryWoods.jpg';
 
 import homeSection2pic from '../img/homeSection2pic.jpg';
-import golf2024 from '../img/2024golf.pdf';
+import golf2025 from '../img/2025Golf.pdf';
 
 import '../App.css';
 
@@ -14,9 +14,9 @@ class GolfSections extends Component {
       <Fragment>
         <section className='GolfSection1'>
           <div className='GolfSection1-1'>
-            <h3>18th Annual 2024 Nick Erdy Foundation Golf Outing</h3>
+            <h3>19th Annual 2025 Nick Erdy Foundation Golf Outing</h3>
             <p className='lead'>
-              will be held on June 1st, 2024 at the Hickory Woods Golf Course in
+              will be held on May 31st, 2025 at the Hickory Woods Golf Course in
               Loveland. Registration is from 12 to 1pm with a shotgun start at
               1:30 pm. Cost of ticket also includes dinner and Two (2) drink
               tickets.
@@ -45,7 +45,7 @@ class GolfSections extends Component {
               <img src={golf3} alt='' />
             </div>
             <div className='DeerTrackTextDiv2023'>
-              <a href={golf2024} target='_blank'>
+              <a href={golf2025} target='_blank'>
                 Golf Outing Registration Form
               </a>
             </div>
