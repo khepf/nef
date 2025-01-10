@@ -4,7 +4,7 @@ import golf1 from '../img/golf1.jpg';
 import golf3 from '../img/hickoryWoods.jpg';
 
 import homeSection2pic from '../img/homeSection2pic.jpg';
-import golf2025 from '../img/2025Golf.pdf';
+import golf20251 from '../img/2025Golf1.pdf';
 
 import '../App.css';
 
@@ -45,7 +45,7 @@ class GolfSections extends Component {
               <img src={golf3} alt='' />
             </div>
             <div className='DeerTrackTextDiv2023'>
-              <a href={golf2025} target='_blank'>
+              <a href={golf20251} target='_blank'>
                 Golf Outing Registration Form
               </a>
             </div>
@@ -65,7 +65,7 @@ class GolfSections extends Component {
         </section>
         <section className='GolfSection2'>
 
-          {/* <div className='GolfSection2-1 tester'>
+          <div className='GolfSection2-1 tester'>
             <h3>Individual Golfer - $110</h3>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" align="center" className="formIndividual">
               <input type="hidden" name="cmd" value="_s-xclick" />
@@ -108,7 +108,7 @@ class GolfSections extends Component {
               <input type="hidden" name="currency_code" value="USD" />
               <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
             </form>
-          </div> */}
+          </div>
 
           {/* <div className='GolfSection2-2 tester'>
             <h3>Silver - $440</h3>
@@ -273,7 +273,7 @@ class GolfSections extends Component {
             <h3>Foundation Information</h3>
             <p className='lead'>Address: 8281 SR 134</p>
             <p className='lead'>Lynchburg, OH 45142</p>
-            <p className='lead'>Phone: (937) 579-5200</p>
+            <p className='lead'>Phone: (513) 200-5797</p>
             <p className='GoogleFormsDiv lead'>
               <a
                 href='https://docs.google.com/forms/d/1SvMZjgUEbKHQXzh2dMh5fm3Df_FhCbMN8jVZ7b1dCTY'

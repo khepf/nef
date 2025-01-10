@@ -27,7 +27,7 @@ class AboutSections extends Component {
             <img src={aboutSection1pic} alt="" />
           </div>
         </section>
-        <p className="lead">NEF has proudly contributed more than $300,000 to the following:</p>
+        <p className="lead">NEF has proudly contributed more than $500,000 to the following:</p>
         <section className="AboutCardsSection">
           <AboutCards />
         </section>
@@ -39,7 +39,7 @@ class AboutSections extends Component {
             <h3>Foundation Information</h3>
             <p className="lead">Address: 8281 SR 134</p>
             <p className="lead">Lynchburg, OH 45142</p>
-            <p className="lead">Phone: (937) 579-5200</p>
+            <p className="lead">Phone: (513) 200-5797</p>
             <p className="GoogleFormsDiv lead"><a href="https://docs.google.com/forms/d/1SvMZjgUEbKHQXzh2dMh5fm3Df_FhCbMN8jVZ7b1dCTY" target="_blank" rel="noopener noreferrer">Contact Form</a></p>
             <p className="lead">501(c)(3) #51-0619676</p>
           </div>

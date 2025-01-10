@@ -17,10 +17,10 @@ class BenefitSections extends Component {
       <Fragment>
         <section className='BenefitSection1'>
           <div className='BenefitSection1-1'>
-            <h3>2024 Annual Benefit</h3>
+            <h3>2025 Annual Benefit</h3>
             <p className='lead'>
-              Please join us for the 19th Annual Nick Erdy Foundation - Dinner,
-              Dance and Auction on Saturday November 23rd, 2024 at Norlyn Manor!
+              Please join us for the 20th Annual Nick Erdy Foundation - Dinner,
+              Dance and Auction on Saturday November 22nd, 2025 at Norlyn Manor!
             </p>
             <p className='lead'>
               The doors will open at 5:30pm with an open bar followed by a
@@ -41,11 +41,11 @@ class BenefitSections extends Component {
         {/* https://www.paypal.com/cgi-bin/webscr?cmd=_button-management&flowloggingId=f645170b9b9e7 */}
         <section className='BenefitSection2'>
           <div className='BenefitSection2-1'>
-            <h3>Individual Ticket - $90/person</h3>
-            {/* <h5>(price increases to $90/person on November 1st)</h5> */}
+            <h3>Individual Ticket - $75/person</h3>
+            <h5>(price increases to $90/person on November 1st)</h5>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" className="formIndividual">
   <input type="hidden" name="cmd" value="_s-xclick" />
-  <input type="hidden" name="hosted_button_id" value="QZALKA3BDJVKA" />
+  <input type="hidden" name="hosted_button_id" value="NJNTJBRYVT84Q" />
   <table>
     <tr>
       <td>
@@ -57,25 +57,25 @@ class BenefitSections extends Component {
       <td>
         <select name="os0">
           <option value="1 Person">
-            1 Person $90.00 USD
+            1 Person $75.00 USD
           </option>
           <option value="2 People">
-            2 People $180.00 USD
+            2 People $150.00 USD
           </option>
           <option value="3 People">
-            3 People $270.00 USD
+            3 People $225.00 USD
           </option>
           <option value="4 People">
-            4 People $360.00 USD
+            4 People $300.00 USD
           </option>
           <option value="5 People">
-            5 People $450.00 USD
+            5 People $375.00 USD
           </option>
           <option value="6 People">
-            6 People $540.00 USD
+            6 People $450.00 USD
           </option>
           <option value="7 People">
-            7 People $630.00 USD
+            7 People $525.00 USD
           </option>
         </select>
       </td>
@@ -97,11 +97,11 @@ class BenefitSections extends Component {
 </form>
           </div>
           <div className='BenefitSection2-2'>
-            <h3>Table Reservation (seats up to 8 ) - $720/table</h3>
-            {/* <h5>(price increases to $720/table on November 1st)</h5> */}
+            <h3>Table Reservation (seats up to 8 ) - $600/table</h3>
+            <h5>(price increases to $720/table on November 1st)</h5>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" className="formGroup">
   <input type="hidden" name="cmd" value="_s-xclick" />
-  <input type="hidden" name="hosted_button_id" value="8CJ8G4XA39G6L" />
+  <input type="hidden" name="hosted_button_id" value="DHDD9W34U33XA" />
   <table>
     <tr>
       <td>
@@ -113,16 +113,16 @@ class BenefitSections extends Component {
       <td>
         <select name="os0">
           <option value="1 Table">
-            1 Table $720.00 USD
+            1 Table $600.00 USD
           </option>
           <option value="2 Tables">
-            2 Tables $1,440.00 USD
+            2 Tables $1,200.00 USD
           </option>
           <option value="3 Tables">
-            3 Tables $2,160.00 USD
+            3 Tables $1,800.00 USD
           </option>
           <option value="4 Tables">
-            4 Tables $2,880.00 USD
+            4 Tables $2,400.00 USD
           </option>
         </select>
       </td>
@@ -192,7 +192,7 @@ class BenefitSections extends Component {
             <h3>Foundation Information</h3>
             <p className='lead'>Address: 8281 SR 134</p>
             <p className='lead'>Lynchburg, OH 45142</p>
-            <p className='lead'>Phone: (937) 579-5200</p>
+            <p className='lead'>Phone: (513) 200-5797</p>
             <p className='GoogleFormsDiv lead'>
               <a
                 href='https://docs.google.com/forms/d/1SvMZjgUEbKHQXzh2dMh5fm3Df_FhCbMN8jVZ7b1dCTY'
