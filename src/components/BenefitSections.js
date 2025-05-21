@@ -41,49 +41,49 @@ class BenefitSections extends Component {
         {/* https://www.paypal.com/cgi-bin/webscr?cmd=_button-management&flowloggingId=f645170b9b9e7 */}
         <section className='BenefitSection2'>
           <div className='BenefitSection2-1'>
-            <h3>Individual Ticket - $75/person</h3>
-            <h5>(price increases to $90/person on November 1st)</h5>
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" className="formIndividual">
+            <h3>Individual Ticket - $100/person</h3>
+            <h5>(price increases to $120/person on November 1st)</h5>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
   <input type="hidden" name="cmd" value="_s-xclick" />
-  <input type="hidden" name="hosted_button_id" value="NJNTJBRYVT84Q" />
+  <input type="hidden" name="hosted_button_id" value="JMK3F88JP645U" />
   <table>
     <tr>
       <td>
-        <input type="hidden" name="on0" value="Number of Tickets"/>
-        Number of Tickets
+        <input type="hidden" name="on0" value="Number of Attendees"/>
+        Number of Attendees
       </td>
     </tr>
     <tr>
       <td>
         <select name="os0">
           <option value="1 Person">
-            1 Person $75.00 USD
+            1 Person $100.00 USD
           </option>
           <option value="2 People">
-            2 People $150.00 USD
+            2 People $200.00 USD
           </option>
           <option value="3 People">
-            3 People $225.00 USD
+            3 People $300.00 USD
           </option>
           <option value="4 People">
-            4 People $300.00 USD
+            4 People $400.00 USD
           </option>
           <option value="5 People">
-            5 People $375.00 USD
+            5 People $500.00 USD
           </option>
           <option value="6 People">
-            6 People $450.00 USD
+            6 People $600.00 USD
           </option>
           <option value="7 People">
-            7 People $525.00 USD
+            7 People $700.00 USD
           </option>
         </select>
       </td>
     </tr>
     <tr>
       <td>
-        <input type="hidden" name="on1" value="List Attendee Names Here:"/>
-        List Attendee Names Here:
+        <input type="hidden" name="on1" value="Attendee Names"/>
+        Attendee Names
       </td>
     </tr>
     <tr>
@@ -97,34 +97,45 @@ class BenefitSections extends Component {
 </form>
           </div>
           <div className='BenefitSection2-2'>
-            <h3>Table Reservation (seats up to 8 ) - $600/table</h3>
-            <h5>(price increases to $720/table on November 1st)</h5>
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" className="formGroup">
+            <h3>Table Reservation (seats up to 8 ) - $750/table</h3>
+            <h5>(price increases to $900/table on November 1st)</h5>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
   <input type="hidden" name="cmd" value="_s-xclick" />
-  <input type="hidden" name="hosted_button_id" value="DHDD9W34U33XA" />
+  <input type="hidden" name="hosted_button_id" value="LJGHBCWK4BJQW" />
   <table>
     <tr>
       <td>
-        <input type="hidden" name="on0" value="How Many Tables?"/>
-        How Many Tables?
+        <input type="hidden" name="on0" value="Number of Tables"/>
+        Number of Tables
       </td>
     </tr>
     <tr>
       <td>
         <select name="os0">
           <option value="1 Table">
-            1 Table $600.00 USD
+            1 Table $750.00 USD
           </option>
           <option value="2 Tables">
-            2 Tables $1,200.00 USD
+            2 Tables $1,500.00 USD
           </option>
           <option value="3 Tables">
-            3 Tables $1,800.00 USD
+            3 Tables $2,250.00 USD
           </option>
           <option value="4 Tables">
-            4 Tables $2,400.00 USD
+            4 Tables $3,000.00 USD
           </option>
         </select>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="hidden" name="on1" value="Attendee Names"/>
+        Attendee Names
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="text" name="os1" maxLength="200" />
       </td>
     </tr>
   </table>

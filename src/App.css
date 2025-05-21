@@ -20,6 +20,29 @@
   
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  text-align: center;
+}
+
+form table {
+  margin: 0 auto;
+}
+
+form input[type="text"],
+form select {
+  margin: 10px 0;
+  text-align: center;
+}
+
+form input[type="image"] {
+  margin-top: 20px;
+}
+
 /* JUMBO */
 .JumboTron {
   background-image: url('./img/homejumbo2.jpg');
