@@ -1,12 +1,12 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import Navbar from "./Navbar";
+import Navbar from './Navbar';
 // import TopBanner from "./TopBanner";
-import Footer from "./Footer";
-import "../App.css";
+import Footer from './Footer';
+import '../App.css';
 
-import homeSection2pic from "../img/homeSection2pic.jpg";
-import homeSection3pic from "../img/aboutne.png";
+import homeSection2pic from '../img/homeSection2pic.jpg';
+import homeSection3pic from '../img/aboutne.png';
 
 class Donate extends Component {
   render() {
@@ -39,19 +39,19 @@ class Donate extends Component {
               method="post"
               target="_top"
             >
-              <input name="cmd" type="hidden" value="_s-xclick" />{" "}
+              <input name="cmd" type="hidden" value="_s-xclick" />{' '}
               <input
                 name="hosted_button_id"
                 type="hidden"
                 value="QFYR35PYBUXJJ"
-              />{" "}
+              />{' '}
               <input
                 alt="PayPal - The safer, easier way to pay online!"
                 border="0"
                 name="submit"
                 src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
                 type="image"
-              />{" "}
+              />{' '}
               <img
                 alt=""
                 border="0"

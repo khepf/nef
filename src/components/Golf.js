@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import Navbar from "./Navbar";
+import React, { Component } from 'react';
+import Navbar from './Navbar';
 // import TopBanner from "./TopBanner";
-import GolfSections from "./GolfSections";
-import Footer from "./Footer";
-import "../App.css";
+import GolfSections from './GolfSections';
+import Footer from './Footer';
+import '../App.css';
 
 class Golf extends Component {
   render() {
@@ -12,7 +12,7 @@ class Golf extends Component {
         <Navbar />
         {/* <TopBanner /> */}
         <GolfSections />
-        <Footer />{" "}
+        <Footer />{' '}
       </div>
     );
   }

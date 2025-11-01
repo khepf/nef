@@ -21,73 +21,65 @@ class AboutCards extends Component {
   render() {
     return (
       <div className="AboutCardsDiv">
-        
         <div className="AboutCard">
-          <img src={card1} alt="card1"/>
+          <img src={card1} alt="card1" />
           <p className="lead">St. Louis School</p>
         </div>
         <div className="AboutCard">
-          <img src={card2} alt="card2"/>
+          <img src={card2} alt="card2" />
           <p className="lead">Archbishop McNicholas High School</p>
         </div>
         <div className="AboutCard">
-          <img src={card3} alt="card3"/>
+          <img src={card3} alt="card3" />
           <p className="lead">Clermont Northeastern Schools</p>
         </div>
         <div className="AboutCard">
-          <img src={card4} alt="card4"/>
+          <img src={card4} alt="card4" />
           <p className="lead">The Three-Deuce-Five Marine Foundation</p>
         </div>
-   
 
-     
         <div className="AboutCard">
-          <img src={card5} alt="card5"/>
+          <img src={card5} alt="card5" />
           <p className="lead">The Mid-Ohio Marine Foundation</p>
         </div>
         <div className="AboutCard">
-          <img src={card6} alt="card6"/>
+          <img src={card6} alt="card6" />
           <p className="lead">Operation Second Chance</p>
         </div>
         <div className="AboutCard">
-          <img src={card7} alt="card7"/>
+          <img src={card7} alt="card7" />
           <p className="lead">The Lima Company Memorial</p>
         </div>
         <div className="AboutCard">
-          <img src={card8} alt="card8"/>
+          <img src={card8} alt="card8" />
           <p className="lead">Folds of Honor</p>
         </div>
- 
 
-     
         <div className="AboutCard">
-          <img src={card9} alt="card9"/>
+          <img src={card9} alt="card9" />
           <p className="lead">Flight Deck Veterans Group</p>
         </div>
         <div className="AboutCard">
-          <img src={card10} alt="card10"/>
+          <img src={card10} alt="card10" />
           <p className="lead">Honor Flight Program</p>
         </div>
         <div className="AboutCard">
-          <img src={card11} alt="card11"/>
+          <img src={card11} alt="card11" />
           <p className="lead">Operation Cherrybend</p>
         </div>
         <div className="AboutCard">
-          <img src={card12} alt="card12"/>
+          <img src={card12} alt="card12" />
           <p className="lead">T.A.P.S.</p>
         </div>
-     
 
-    
         <div className="AboutCard">
-          <img src={card13}  alt="card13"/>
+          <img src={card13} alt="card13" />
           <p className="lead">Always Brothers</p>
         </div>
         <div className="AboutCard">
-          <img src={card14}  alt="card14"/>
+          <img src={card14} alt="card14" />
           <p className="lead">Veteran Kinnection</p>
         </div>
-     
       </div>
     );
   }

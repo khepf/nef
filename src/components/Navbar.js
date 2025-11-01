@@ -6,8 +6,9 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink } from 'reactstrap';
-  import { Link } from 'react-router-dom';
+  NavLink,
+} from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -15,12 +16,12 @@ export default class Example extends React.Component {
 
     this.toggle = this.toggle.bind(this);
     this.state = {
-      isOpen: false
+      isOpen: false,
     };
   }
   toggle() {
     this.setState({
-      isOpen: !this.state.isOpen
+      isOpen: !this.state.isOpen,
     });
   }
   render() {
@@ -31,7 +32,7 @@ export default class Example extends React.Component {
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-            <NavItem className="NavItem">
+              <NavItem className="NavItem">
                 <NavLink to="/" className="NavLink" tag={Link}>
                   Home
                 </NavLink>
@@ -61,7 +62,6 @@ export default class Example extends React.Component {
                   Donate
                 </NavLink>
               </NavItem>
-              
             </Nav>
           </Collapse>
         </Navbar>

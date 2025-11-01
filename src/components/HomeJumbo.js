@@ -5,10 +5,6 @@ const HomeJumbo = (props) => {
   return (
     <div>
       <Jumbotron className="JumboTron">
-        
-       
-        
-        
         {/* <p className="lead">
           <Button color="primary" size="lg">Freedom Isn't Free</Button>
         </p> */}
