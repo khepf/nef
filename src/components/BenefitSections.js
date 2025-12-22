@@ -7,9 +7,9 @@ import benefit4 from '../img/texas.png';
 import benefit5 from '../img/steiner.png';
 import benefit6 from '../img/lima2.jpg';
 import benefit7 from '../img/meijer.jpg';
-import homeSection2pic from '../img/homeSection2pic.jpg';
 
 import '../App.css';
+import { FoundationInfoSection } from './FoundationInfoSection';
 
 class BenefitSections extends Component {
   render() {
@@ -212,27 +212,7 @@ class BenefitSections extends Component {
           </div>
         </section>
 
-        <section className="AboutSection2">
-          <div className="AboutSection2-1">
-            <h3>Foundation Information</h3>
-            <p className="lead">Address: 8281 SR 134</p>
-            <p className="lead">Lynchburg, OH 45142</p>
-            <p className="lead">Phone: (513) 200-5797</p>
-            <p className="GoogleFormsDiv lead">
-              <a
-                href="https://docs.google.com/forms/d/1SvMZjgUEbKHQXzh2dMh5fm3Df_FhCbMN8jVZ7b1dCTY"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Contact Form
-              </a>
-            </p>
-            <p className="lead">501(c)(3) #51-0619676</p>
-          </div>
-          <div className="AboutSection2-2">
-            <img src={homeSection2pic} alt="Home Section 2 pic" />
-          </div>
-        </section>
+      <FoundationInfoSection />
       </Fragment>
     );
   }

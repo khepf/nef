@@ -4,7 +4,7 @@ import '../App.css';
 import AboutCards from './AboutCards';
 
 import aboutSection1pic from '../img/aboutSection1pic.jpg';
-import homeSection2pic from '../img/homeSection2pic.jpg';
+import { FoundationInfoSection } from './FoundationInfoSection';
 
 class AboutSections extends Component {
   render() {
@@ -31,27 +31,7 @@ class AboutSections extends Component {
         <section className="AboutCardsSection">
           <AboutCards />
         </section>
-        <section className="AboutSection2">
-          <div className="AboutSection2-1">
-            <img src={homeSection2pic} alt="" />
-          </div>
-          <div className="AboutSection2-2">
-            <h3>Foundation Information</h3>
-            <p className="lead">Address: 8281 SR 134</p>
-            <p className="lead">Lynchburg, OH 45142</p>
-            <p className="lead">Phone: (513) 200-5797</p>
-            <p className="GoogleFormsDiv lead">
-              <a
-                href="https://docs.google.com/forms/d/1SvMZjgUEbKHQXzh2dMh5fm3Df_FhCbMN8jVZ7b1dCTY"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Contact Form
-              </a>
-            </p>
-            <p className="lead">501(c)(3) #51-0619676</p>
-          </div>
-        </section>
+      <FoundationInfoSection />
       </Fragment>
     );
   }
