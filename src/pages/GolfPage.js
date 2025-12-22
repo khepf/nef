@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Navbar from './Navbar';
-import GolfSections from './GolfSections';
-import Footer from './Footer';
+import Navbar from '../components/Navbar';
+import GolfSections from '../components/GolfSections';
+import Footer from '../components/Footer';
 import '../App.css';
 
 class Golf extends Component {

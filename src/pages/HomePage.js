@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import Navbar from './Navbar';
-import HomeJumbo from './HomeJumbo';
-import HomeSections from './HomeSections';
-import Footer from './Footer';
+import Navbar from '../components/Navbar';
+import HomeJumbo from '../components/HomeJumbo';
+import HomeSections from '../components/HomeSections';
+import Footer from '../components/Footer';
 import '../App.css';
 import '../bootstrap-social.css';
+import { FoundationInfoSection } from '../components/FoundationInfoSection';
 
 class HomePage extends Component {
   render() {
@@ -13,6 +14,7 @@ class HomePage extends Component {
         <Navbar />
         <HomeJumbo />
         <HomeSections />
+        <FoundationInfoSection />
         <Footer />
       </div>
     );

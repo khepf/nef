@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-import Navbar from './Navbar';
-import Footer from './Footer';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import '../App.css';
 
 import homeSection3pic from '../img/aboutne.png';
-import { FoundationInfoSection } from './FoundationInfoSection';
+import { FoundationInfoSection } from '../components/FoundationInfoSection';
 
 class Donate extends Component {
   render() {

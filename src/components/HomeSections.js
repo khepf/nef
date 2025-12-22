@@ -47,7 +47,7 @@ class HomeSections extends Component {
             />
           </div>
         </section>
-      <FoundationInfoSection />
+      
       </Fragment>
     );
   }
