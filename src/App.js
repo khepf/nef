@@ -2,24 +2,24 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import './App.css';
 
-import About from './components/About';
-import Benefit from './components/Benefit';
-import Contact from './components/Contact';
-import Donate from './components/Donate';
-import Golf from './components/Golf';
-import Home from './components/Home';
+import AboutPage from './components/AboutPage';
+import BenefitPage from './components/BenefitPage';
+import ContactPage from './components/ContactPage';
+import DonatePage from './components/DonatePage';
+import GolfPage from './components/GolfPage';
+import HomePage from './components/HomePage';
 
-// 2023
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/benefit" component={Benefit} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/donate" component={Donate} />
-        <Route path="/golf" component={Golf} />{' '}
+        <Route exact path="/" component={HomePage} />
+        <Route path="/about" component={AboutPage} />
+        <Route path="/benefit" component={BenefitPage} />
+        <Route path="/golf" component={GolfPage} />
+        <Route path="/contact" component={ContactPage} />
+        <Route path="/donate" component={DonatePage} />
+        
       </div>
     );
   }

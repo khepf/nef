@@ -6,7 +6,7 @@ import Footer from './Footer';
 import '../App.css';
 import '../bootstrap-social.css';
 
-class Home extends Component {
+class HomePage extends Component {
   render() {
     return (
       <div className="Home">
@@ -19,4 +19,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default HomePage;

@@ -4,7 +4,7 @@ import AboutSections from './AboutSections';
 import Footer from './Footer';
 import '../App.css';
 
-class About extends Component {
+class AboutPage extends Component {
   render() {
     return (
       <div className="About">
@@ -16,4 +16,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default AboutPage;

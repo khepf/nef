@@ -4,7 +4,7 @@ import BenefitSections from './BenefitSections';
 import Footer from './Footer';
 import '../App.css';
 
-class Benefit extends Component {
+class BenefitPage extends Component {
   render() {
     return (
       <div className="Benefit">
@@ -16,4 +16,4 @@ class Benefit extends Component {
   }
 }
 
-export default Benefit;
+export default BenefitPage;
