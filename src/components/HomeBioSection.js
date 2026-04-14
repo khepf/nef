@@ -1,13 +1,9 @@
-import React, { Component, Fragment } from 'react';
-import { FoundationInfoSection } from './FoundationInfoSection';
+import React from 'react';
+import homeSection1pic from '../img/homeSection1pic.jpg';
 import '../App.css';
 
-import homeSection1pic from '../img/homeSection1pic.jpg';
-
-class HomeSections extends Component {
-  render() {
+const HomeBioSection =  () => {
     return (
-      <Fragment>
         <section className="Section1">
           <div className="Section1-1">
             <h1>
@@ -47,10 +43,7 @@ class HomeSections extends Component {
             />
           </div>
         </section>
-      
-      </Fragment>
     );
-  }
 }
 
-export default HomeSections;
+export default HomeBioSection;
