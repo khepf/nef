@@ -5,9 +5,9 @@ import benefit5 from '../img/steiner.png';
 import benefit6 from '../img/lima2.jpg';
 import benefit7 from '../img/meijer.jpg';
 import benefit8 from '../img/LMBCLogo.webp';
-import benefit9 from '../img/LMBCMain.jpg';
-import benefit10 from '../img/benefit10.jpg';
-import benefit11 from '../img/benefit11.jpg';
+import lmbc1 from '../img/lmbc1.jpg';
+import lmbc2 from '../img/lmbc2.jpg';
+import lmbc3 from '../img/lmbc3.jpg';
 
 import '../App.css';
 import { FoundationInfoSection } from './FoundationInfoSection';
@@ -18,7 +18,7 @@ class BenefitSections extends Component {
     currentImageIndex: 0,
   };
 
-  imageList = [benefit9, benefit10, benefit11];
+  imageList = [lmbc1, lmbc2, lmbc3];
 
   prevImage = () => {
     this.setState((prevState) => ({
