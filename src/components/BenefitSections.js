@@ -132,7 +132,7 @@ class BenefitSections extends Component {
         {/* https://www.paypal.com/cgi-bin/webscr?cmd=_button-management&flowloggingId=f645170b9b9e7 */}
         <section className="BenefitSection2">
           <div className="BenefitSection2-1">
-            <h3>Individual Ticket - $120/person</h3>
+            <h3>Individual Ticket - $110/person</h3>
             {/* <h5>(price increases to $120/person on November 1st)</h5> */}
             <form
               action="https://www.paypal.com/cgi-bin/webscr"
@@ -143,8 +143,8 @@ class BenefitSections extends Component {
               <input
                 type="hidden"
                 name="hosted_button_id"
-                // value="JMK3F88JP645U"
-                value="5LTPXCEWRNELN"
+                value="JMK3F88JP645U"
+                // value="5LTPXCEWRNELN"
               />
               <table>
                 <tr>
@@ -160,13 +160,13 @@ class BenefitSections extends Component {
                 <tr>
                   <td>
                     <select name="os0">
-                      <option value="1 Person">1 Person $120.00 USD</option>
-                      <option value="2 People">2 People $240.00 USD</option>
-                      <option value="3 People">3 People $360.00 USD</option>
-                      <option value="4 People">4 People $480.00 USD</option>
-                      <option value="5 People">5 People $600.00 USD</option>
-                      <option value="6 People">6 People $720.00 USD</option>
-                      <option value="7 People">7 People $840.00 USD</option>
+                      <option value="1 Person">1 Person $110.00 USD</option>
+                      <option value="2 People">2 People $220.00 USD</option>
+                      <option value="3 People">3 People $330.00 USD</option>
+                      <option value="4 People">4 People $440.00 USD</option>
+                      <option value="5 People">5 People $550.00 USD</option>
+                      <option value="6 People">6 People $660.00 USD</option>
+                      <option value="7 People">7 People $770.00 USD</option>
                     </select>
                   </td>
                 </tr>
@@ -194,7 +194,7 @@ class BenefitSections extends Component {
             </form>
           </div>
           <div className="BenefitSection2-2">
-            <h3>Table Reservation (seats up to 8 ) - $900/table</h3>
+            <h3>Table Reservation (seats up to 10 ) - $1,100/table</h3>
             {/* <h5>(price increases to $900/table on November 1st)</h5> */}
             <form
               action="https://www.paypal.com/cgi-bin/webscr"
@@ -205,8 +205,8 @@ class BenefitSections extends Component {
               <input
                 type="hidden"
                 name="hosted_button_id"
-                // value="LJGHBCWK4BJQW"
-                value="TJ6PHQ52DWUQW"
+                value="LJGHBCWK4BJQW"
+                // value="TJ6PHQ52DWUQW"
               />
               <table>
                 <tr>
@@ -218,10 +218,10 @@ class BenefitSections extends Component {
                 <tr>
                   <td>
                     <select name="os0">
-                      <option value="1 Table">1 Table $900.00 USD</option>
-                      <option value="2 Tables">2 Tables $1,800.00 USD</option>
-                      <option value="3 Tables">3 Tables $2,700.00 USD</option>
-                      <option value="4 Tables">4 Tables $3,600.00 USD</option>
+                      <option value="1 Table">1 Table $1,100.00 USD</option>
+                      <option value="2 Tables">2 Tables $2,200.00 USD</option>
+                      <option value="3 Tables">3 Tables $3,300.00 USD</option>
+                      <option value="4 Tables">4 Tables $4,400.00 USD</option>
                     </select>
                   </td>
                 </tr>
