@@ -6,18 +6,90 @@ import benefit6 from '../img/lima2.jpg';
 import benefit7 from '../img/meijer.jpg';
 import benefit8 from '../img/LMBCLogo.webp';
 import benefit9 from '../img/LMBCMain.jpg';
+import benefit10 from '../img/benefit10.jpg';
+import benefit11 from '../img/benefit11.jpg';
 
 import '../App.css';
 import { FoundationInfoSection } from './FoundationInfoSection';
 
 class BenefitSections extends Component {
+  // Carousel state and image list at the top
+  state = {
+    currentImageIndex: 0,
+  };
+
+  imageList = [benefit9, benefit10, benefit11];
+
+  prevImage = () => {
+    this.setState((prevState) => ({
+      currentImageIndex:
+        (prevState.currentImageIndex + this.imageList.length - 1) %
+        this.imageList.length,
+    }));
+  };
+
+  nextImage = () => {
+    this.setState((prevState) => ({
+      currentImageIndex:
+        (prevState.currentImageIndex + 1) % this.imageList.length,
+    }));
+  };
+
   render() {
+    const { currentImageIndex } = this.state;
+    const currentImage = this.imageList[currentImageIndex];
+
     return (
       <Fragment>
         <section className="BenefitSection1">
           <div className="BenefitSection1-2">
             <h3>Annual Benefit</h3>
-            <img src={benefit9} alt="Benefit 9" className="Benefit1pic" />
+            <div className="image-carousel">
+              <button
+                type="button"
+                onClick={this.prevImage}
+                style={{
+                  border: 'none',
+                  background: 'transparent',
+                  fontSize: '24px',
+                  cursor: 'pointer',
+                  outline: 'none',
+                  boxShadow: 'none',
+                }}
+                tabIndex={0}
+                onMouseDown={(e) => e.preventDefault()}
+              >
+                <span role="img" aria-label="Previous image">
+                  ⬅️
+                </span>
+              </button>
+              <img
+                src={currentImage}
+                alt={`Benefit ${currentImageIndex + 1}`}
+                className="Benefit1pic"
+              />
+              <button
+                type="button"
+                onClick={this.nextImage}
+                style={{
+                  border: 'none',
+                  background: 'transparent',
+                  fontSize: '24px',
+                  cursor: 'pointer',
+                  outline: 'none',
+                  boxShadow: 'none',
+                }}
+                tabIndex={0}
+                onMouseDown={(e) => e.preventDefault()}
+              >
+                <span role="img" aria-label="Next image">
+                  ➡️
+                </span>
+              </button>
+            </div>
+            <div className="carousel-indicator">
+              {currentImageIndex + 1} / {this.imageList.length}
+            </div>
           </div>
           <div className="BenefitSection1-1">
             <p className="lead">WE HAVE SOME BIG NEWS!!</p>
@@ -224,7 +296,11 @@ class BenefitSections extends Component {
               Behind each portrait we feel the hearts and spirits of the
               thousands of men and women who have served, fought and died for
               their country, in every branch of the armed forces. Visit{' '}
-              <a href="https://www.limacompanymemorial.org/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.limacompanymemorial.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Lima Company Memorial
               </a>{' '}
               for more info.
