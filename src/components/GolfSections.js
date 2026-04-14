@@ -13,7 +13,7 @@ class GolfSections extends Component {
       <Fragment>
         <section className="GolfSection1">
           <div className="GolfSection1-1">
-            <h3>20th Annual 2025 Nick Erdy Foundation Golf Outing</h3>
+            <h3>20th Annual 2026 Nick Erdy Foundation Golf Outing</h3>
             <p className="lead">
               will be held on May 30th, 2026 at the Hickory Woods Golf Course in
               Loveland. Registration is from 12 to 1pm with a shotgun start at

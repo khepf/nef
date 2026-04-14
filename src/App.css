@@ -44,13 +44,13 @@ form input[type='image'] {
 
 /* JUMBO */
 .JumboTron {
-  background-image: url('./img/homejumbo2.jpg');
-  /* background-attachment: fixed; */
-  /* background-position: center; */
+  background-image: url('./img/neflogo20.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   min-height: 500px;
+  background-color: transparent;
+
 }
 
 /* HOMESECTIONS PAGE */
@@ -137,7 +137,7 @@ form input[type='image'] {
 }
 
 .BenefitSection1-2 {
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .GolfSection2-1,
@@ -158,11 +158,26 @@ form input[type='image'] {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('./img/aboutSection1Divpic1.jpg');
+  position: relative; /* Added for pseudo-element positioning */
+  min-height: 300px;
+}
+
+.AboutSection1-1::before,
+.BenefitSection1-1::before,
+.GolfSection1-1::before,
+.ContactSection1-1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./img/neflogo20.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  min-height: 300px;
+  opacity: 0.08; /* Adjust opacity (0.0 to 1.0) */
+  z-index: -1; /* Place behind content */
 }
 .lead {
   font-weight: 400;
@@ -196,7 +211,7 @@ input {
 
 .GolfSection1-1 {
   width: 50%;
-  margin-top: 40px
+  margin-top: 40px;
 }
 
 Footer {
