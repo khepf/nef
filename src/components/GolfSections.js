@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from 'react';
 
-import golf1 from '../img/golf1.jpg';
-import golf3 from '../img/hickoryWoods.jpg';
-import golf20251 from '../img/2025Golf1.pdf';
+import hwlogo from '../img/HWLogo.webp';
+import hwmarine from '../img/HWMarine.webp';
+import golf2026 from '../img/2026Golf.pdf';
 
 import '../App.css';
 import { FoundationInfoSection } from './FoundationInfoSection';
@@ -13,9 +13,9 @@ class GolfSections extends Component {
       <Fragment>
         <section className="GolfSection1">
           <div className="GolfSection1-1">
-            <h3>19th Annual 2025 Nick Erdy Foundation Golf Outing</h3>
+            <h3>20th Annual 2025 Nick Erdy Foundation Golf Outing</h3>
             <p className="lead">
-              will be held on May 31st, 2025 at the Hickory Woods Golf Course in
+              will be held on May 30th, 2026 at the Hickory Woods Golf Course in
               Loveland. Registration is from 12 to 1pm with a shotgun start at
               1:30 pm. Cost of ticket also includes dinner and Two (2) drink
               tickets.
@@ -38,19 +38,19 @@ class GolfSections extends Component {
             </p>
           </div>
           <div className="GolfSection1-2">
-            <img src={golf1} alt="Golf 1" className="Golf1pic" />
+            <img src={hwmarine} alt="Golf 1" className="Golf1pic" />
             <h3>Additional Info</h3>
             <div>
-              <img src={golf3} alt="" />
+              <img src={hwlogo} alt="" />
             </div>
             <div className="DeerTrackTextDiv2023">
-              <a href={golf20251} target="_blank">
+              <a href={golf2026} target="_blank">
                 Golf Outing Registration Form
               </a>
             </div>
             <div className="DeerTrackTextDiv2023">
               <a
-                href="http://www.hickorywoods.com/directions"
+                href="https://www.hickorywoods.com/directions/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -65,16 +65,16 @@ class GolfSections extends Component {
         <section className="GolfSection2">
           <div className="GolfSection2-1 tester">
             <h3>Individual Golfer - $110</h3>
-            <div className="sold-out-overlay">
+            {/* <div className="sold-out-overlay">
               <p>Sold Out</p>
-            </div>
+            </div> */}
             <form
               action="https://www.paypal.com/cgi-bin/webscr"
               method="post"
               target="_blank"
               align="center"
               className="formIndividual"
-              style={{ pointerEvents: 'none', opacity: 0.5 }}
+              // style={{ pointerEvents: 'none', opacity: 0.5 }}
             >
               <input type="hidden" name="cmd" value="_s-xclick" />
               <input
@@ -113,15 +113,15 @@ class GolfSections extends Component {
 
           <div className="GolfSection2-2 tester">
             <h3>Golf Outing Foursome - $440</h3>
-            <div className="sold-out-overlay">
+            {/* <div className="sold-out-overlay">
               <p>Sold Out</p>
-            </div>
+            </div> */}
             <form
               action="https://www.paypal.com/cgi-bin/webscr"
               method="post"
               target="_blank"
               className="formIndividual"
-              style={{ pointerEvents: 'none', opacity: 0.5 }}
+              // style={{ pointerEvents: 'none', opacity: 0.5 }}
             >
               <input type="hidden" name="cmd" value="_s-xclick" />
               <input

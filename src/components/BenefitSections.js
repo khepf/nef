@@ -1,12 +1,11 @@
 import React, { Component, Fragment } from 'react';
 
-import benefit1 from '../img/benefit2.jpg';
-import benefit2 from '../img/norlyn.png';
 import benefit3 from '../img/spinning.png';
-import benefit4 from '../img/texas.png';
 import benefit5 from '../img/steiner.png';
 import benefit6 from '../img/lima2.jpg';
 import benefit7 from '../img/meijer.jpg';
+import benefit8 from '../img/LMBCLogo.webp';
+import benefit9 from '../img/LMBCMain.jpg';
 
 import '../App.css';
 import { FoundationInfoSection } from './FoundationInfoSection';
@@ -17,25 +16,45 @@ class BenefitSections extends Component {
       <Fragment>
         <section className="BenefitSection1">
           <div className="BenefitSection1-1">
-            <h3>2025 Annual Benefit</h3>
+            <h3>Annual Benefit</h3>
+            <p className="lead">WE HAVE SOME BIG NEWS!!</p>
+            <p className="lead">WE'RE MOVING!!</p>
             <p className="lead">
-              Please join us for the 20th Annual Nick Erdy Foundation - Dinner,
-              Dance and Auction on Saturday November 22nd, 2025 at Norlyn Manor!
+              The Nick Erdy Foundation has been truly blessed to celebrate many
+              milestones with the Wolfer family at Norlyn Manor. We are
+              incredibly grateful for their support over the last 20 years, and
+              wish them all the best in their new ventures as they step away
+              from the event center. This year will also bring a change in our
+              catering partner, Brian Kutcher of Texas Roadhouse. He has been a
+              huge part of our success over the last 2 decades and his
+              partnership will be truly missed. "Thank you" to both of these
+              supporters does not seem nearly enough for all they have done for
+              us.
             </p>
             <p className="lead">
-              The doors will open at 5:30pm with an open bar followed by a
-              silent auction, dinner, dancing, Split-the-Pot, raffles and so
-              much more!
-            </p>
-            <p className="lead">
-              Checks can be mailed to address below or payment can now be made
-              via PayPal. PayPal is fast, convenient and you don't need a PayPal
-              account to use this method of payment. Let us know if you have any
-              questions.
+              But as they say, when one door closes, another opens! We are so
+              excited to partner with{' '}
+              <a
+                href="https://littlemiamibrewing.com/event-center/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: 'none' }}
+              >
+                Little Miami Brewing Company
+              </a>{' '}
+              in Milford for our 21st annual Nick Erdy Foundation Dinner, Dance
+              and Auction! It will be held on February 20th, 2027 from
+              5:30-10:30pm and we can't wait to begin making new memories here!
+              You can expect the same great celebration with an open bar
+              followed by live and silent auctions, dinner, dancing,
+              Split-the-Pot, raffles and so much more! Continue to check back
+              for more updates to this year's event as we navigate this
+              transition, and thank you for your continued support of The Nick
+              Erdy Foundation!
             </p>
           </div>
           <div className="BenefitSection1-2">
-            <img src={benefit1} alt="Benefit 1" className="Benefit1pic" />
+            <img src={benefit9} alt="Benefit 9" className="Benefit1pic" />
           </div>
         </section>
         {/* https://www.paypal.com/cgi-bin/webscr?cmd=_button-management&flowloggingId=f645170b9b9e7 */}
@@ -168,11 +187,12 @@ class BenefitSections extends Component {
             </p>
           </div>
           <div className="BenefitSection3-2">
-            <img src={benefit2} alt="" />
+            {/* <img src={benefit2} alt="" /> */}
             <img src={benefit3} alt="" />
-            <img src={benefit4} alt="" />
+            {/* <img src={benefit4} alt="" /> */}
             <img src={benefit5} alt="" />
             <img src={benefit7} alt="" />
+            <img src={benefit8} alt="" />
           </div>
         </section>
 
@@ -212,7 +232,7 @@ class BenefitSections extends Component {
           </div>
         </section>
 
-      <FoundationInfoSection />
+        <FoundationInfoSection />
       </Fragment>
     );
   }

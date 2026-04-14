@@ -64,7 +64,6 @@ form input[type='image'] {
 .BenefitSection1,
 .BenefitSection3,
 .BenefitSection4,
-.GolfSection1,
 .GolfSection3,
 .ContactSection1,
 .DonateSection1 {
@@ -72,7 +71,14 @@ form input[type='image'] {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  max-width: 100%;
+}
 
+.GolfSection1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
   max-width: 100%;
 }
 
@@ -187,6 +193,7 @@ input {
 
 .GolfSection1-1 {
   width: 50%;
+  margin-top: 40px
 }
 
 Footer {
@@ -221,6 +228,14 @@ Footer {
 .Covid-Banner {
   background: goldenrod;
   padding: 10px 0 10px 0;
+}
+
+.Golf1pic {
+  width: 50%;
+}
+
+.Benefit1pic {
+  width: 50%;
 }
 
 @media screen and (max-width: 1050px) {
