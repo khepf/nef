@@ -15,8 +15,11 @@ class BenefitSections extends Component {
     return (
       <Fragment>
         <section className="BenefitSection1">
-          <div className="BenefitSection1-1">
+          <div className="BenefitSection1-2">
             <h3>Annual Benefit</h3>
+            <img src={benefit9} alt="Benefit 9" className="Benefit1pic" />
+          </div>
+          <div className="BenefitSection1-1">
             <p className="lead">WE HAVE SOME BIG NEWS!!</p>
             <p className="lead">WE'RE MOVING!!</p>
             <p className="lead">
@@ -52,9 +55,6 @@ class BenefitSections extends Component {
               transition, and thank you for your continued support of The Nick
               Erdy Foundation!
             </p>
-          </div>
-          <div className="BenefitSection1-2">
-            <img src={benefit9} alt="Benefit 9" className="Benefit1pic" />
           </div>
         </section>
         {/* https://www.paypal.com/cgi-bin/webscr?cmd=_button-management&flowloggingId=f645170b9b9e7 */}
@@ -224,7 +224,7 @@ class BenefitSections extends Component {
               Behind each portrait we feel the hearts and spirits of the
               thousands of men and women who have served, fought and died for
               their country, in every branch of the armed forces. Visit{' '}
-              <a href="www.limacompanymemorial.org" target="_blank">
+              <a href="https://www.limacompanymemorial.org/" target="_blank" rel="noopener noreferrer">
                 Lima Company Memorial
               </a>{' '}
               for more info.

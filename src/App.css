@@ -121,7 +121,6 @@ form input[type='image'] {
 .Section2-1,
 .AboutSection1-2,
 .AboutSection2-1,
-.BenefitSection1-2,
 .BenefitSection2-1,
 .BenefitSection2-2,
 .BenefitSection3-2,
@@ -135,6 +134,10 @@ form input[type='image'] {
 .DonateSection1-2 {
   margin: 20px;
   padding: 20px;
+}
+
+.BenefitSection1-2 {
+  margin: 0 auto;
 }
 
 .GolfSection2-1,
