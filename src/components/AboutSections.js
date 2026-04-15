@@ -26,7 +26,7 @@ class AboutSections extends Component {
           </div>
         </section>
         <p className="lead">
-          NEF has proudly contributed more than $500,000 to the following:
+          NEF has proudly contributed more than $520,000 to the following:
         </p>
         <section className="AboutCardsSection">
           <AboutCards />

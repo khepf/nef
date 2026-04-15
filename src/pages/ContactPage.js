@@ -20,7 +20,7 @@ class Contact extends Component {
             </p>
             <button type="button" className=" btn btn-facebook">
               <a
-                href="https://www.facebook.com/The-Nick-Erdy-Foundation-156253388324978/"
+                href="https://www.facebook.com/profile.php?id=61570809597902"
                 target="_blank"
                 rel="noopener noreferrer"
               >
