@@ -47,7 +47,10 @@ class BenefitSections extends Component {
             <div className="image-carousel">
               <button
                 type="button"
-                onClick={this.prevImage}
+                onMouseDown={(e) => {
+                  e.preventDefault();
+                  this.prevImage();
+                }}
                 style={{
                   border: 'none',
                   background: 'transparent',
@@ -57,7 +60,6 @@ class BenefitSections extends Component {
                   boxShadow: 'none',
                 }}
                 tabIndex={0}
-                onMouseDown={(e) => e.preventDefault()}
               >
                 <span role="img" aria-label="Previous image">
                   ⬅️
@@ -70,7 +72,10 @@ class BenefitSections extends Component {
               />
               <button
                 type="button"
-                onClick={this.nextImage}
+                onMouseDown={(e) => {
+                  e.preventDefault();
+                  this.nextImage();
+                }}
                 style={{
                   border: 'none',
                   background: 'transparent',
@@ -80,7 +85,6 @@ class BenefitSections extends Component {
                   boxShadow: 'none',
                 }}
                 tabIndex={0}
-                onMouseDown={(e) => e.preventDefault()}
               >
                 <span role="img" aria-label="Next image">
                   ➡️
