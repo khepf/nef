@@ -32,15 +32,6 @@ class Contact extends Component {
             <p className="lead">Address: 8281 SR 134</p>
             <p className="lead">Lynchburg, OH 45142</p>
             <p className="lead">Phone: (513) 200-5797</p>
-            <p className="GoogleFormsDiv lead">
-              <a
-                href="https://docs.google.com/forms/d/1SvMZjgUEbKHQXzh2dMh5fm3Df_FhCbMN8jVZ7b1dCTY"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Contact Form
-              </a>
-            </p>
             <p className="lead">501(c)(3) #51-0619676</p>
           </div>
           <div className="ContactSection1-2">
