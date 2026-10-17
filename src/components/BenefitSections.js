@@ -131,11 +131,15 @@ class BenefitSections extends Component {
               transition, and thank you for your continued support of The Nick
               Erdy Foundation!
             </p>
+            <p className="lead">
+              <b>Note:</b> The Individual tickets after Feb 1 (If Available) are $125 / person and Table of 10 Reservation after Feb 1 (If Available) is $1,250 / table
+            </p>
           </div>
         </section>
         {/* https://www.paypal.com/cgi-bin/webscr?cmd=_button-management&flowloggingId=f645170b9b9e7 */}
         <section className="BenefitSection2">
           <div className="BenefitSection2-1">
+            <h3>LIMITED SEATING AVAILABLE</h3>
             <h3>Individual Ticket - $110/person</h3>
             {/* <h5>(price increases to $120/person on November 1st)</h5> */}
             <form
