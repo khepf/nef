@@ -14,7 +14,7 @@ import card11 from '../img/cherrybend.png';
 import card12 from '../img/taps.png';
 import card13 from '../img/always.png';
 import card14 from '../img/kinnection.png';
-import card15 from '../img/ATIlogo.png';
+// import card15 from '../img/ATIlogo.png';
 
 import '../App.css';
 
@@ -81,10 +81,10 @@ class AboutCards extends Component {
           <img src={card14} alt="card14" />
           <p className="lead">Veteran Kinnection</p>
         </div>
-        <div className="AboutCard">
+        {/* <div className="AboutCard">
           <img src={card15} alt="card15" />
           <p className="lead">All The Ingredients</p>
-        </div>
+        </div> */}
       </div>
     );
   }

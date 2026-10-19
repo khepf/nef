@@ -5,6 +5,7 @@ import benefit5 from '../img/steiner.png';
 import benefit6 from '../img/lima2.jpg';
 import benefit7 from '../img/meijer.jpg';
 import benefit8 from '../img/LMBCLogo.webp';
+import benefit9 from '../img/ATIlogo.png';
 import lmbc1 from '../img/lmbc1.jpg';
 import lmbc2 from '../img/lmbc2.jpg';
 import lmbc3 from '../img/lmbc3.jpg';
@@ -273,6 +274,7 @@ class BenefitSections extends Component {
             <img src={benefit5} alt="" />
             <img src={benefit7} alt="" />
             <img src={benefit8} alt="" />
+            <img src={benefit9} alt="" />
           </div>
         </section>
 
